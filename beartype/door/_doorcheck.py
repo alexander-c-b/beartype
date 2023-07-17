@@ -255,7 +255,7 @@ def is_subhint(subhint: object, superhint: object) -> bool:
 def is_bearable(
     # Mandatory flexible parameters.
     obj: object,
-    hint: T,
+    hint: type[T],
 
     # Optional keyword-only parameters.
     *,
